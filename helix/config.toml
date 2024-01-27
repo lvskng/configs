@@ -1,0 +1,21 @@
+theme =  "dracula_at_night"
+
+[editor]
+bufferline = "multiple"
+auto-completion = true
+auto-format = true
+
+[editor.statusline]
+left = ["mode", "spinner", "file-name", "read-only-indicator", "file-modification-indicator", "version-control"]
+right = ["diagnostics", "selections", "register", "position", "total-line-numbers", "position-percentage", "file-encoding"]
+mode.normal = "⁂ <Normal>"
+mode.insert = "⸙ <Insert>"
+mode.select = "𐫰 <Select>"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.indent-guides]
+render = true
+character = "⸽" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1
